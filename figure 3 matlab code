@@ -1,0 +1,12 @@
+% Figure 1: Original vs Compressed bits
+orig = [2500 100];
+comp = [2150 80];
+figure
+bar([orig; comp])
+set(gca,'XTickLabel',{'Original','Compressed'})
+ylabel('Bits (approx.)')
+title('Original vs Compressed bits')
+legend('Bernoulli','ER graph')
+set(gca,'Color',[0.1 0.1 0.1])
+set(gcf,'Color',[0.1 0.1 0.1])
+set(gca,'XColor','w','YColor','w','TitleFontWeight','bold'
