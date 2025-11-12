@@ -1,4 +1,5 @@
-% Figure 1: Original vs Compressed bits
+% Figure 3
+: Original vs Compressed bits
 orig = [2500 100];
 comp = [2150 80];
 figure
