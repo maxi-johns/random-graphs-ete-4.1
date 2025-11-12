@@ -1,0 +1,22 @@
+% Figure 4: Compression ratios histogram
+bernoulli = 0.85 + 0.02*randn(1,100);
+er = 0.8 + 0.1*randn(1,100);
+figure
+histogram(bernoulli, 'FaceColor',[0 0.45 0.74])
+hold on
+histogram(er, 'FaceColor',[0.85 0.33 0.1])
+xlabel('Avg bits per symbol')
+ylabel('Frequency')
+title('Compression ratios over 100 trials')
+legend('Bernoulli','ER graph')
+set(gca,'Color',[0.1 0.1 0.1])
+set(gcf,'Color',[0.1 0.1 0.1])
+set(gca,'XColor','w','YColor','w','TitleFontWeight','bold')
+
+
+
+
+
+
+
+You’re
